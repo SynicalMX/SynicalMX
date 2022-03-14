@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @SynicalMX
+- 👀 I’m interested in computers.
+- 🌱 I’m currently learning Java.
+- 💞️ I’m looking to collaborate on nothing currently.
+- 📫 You can reach me by DM'ing me @SynicalMX on twitter
