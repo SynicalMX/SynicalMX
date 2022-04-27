@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SynicalMX
 - 👀 I’m interested in computers.
-- ✍️ I'm currently working on [RedOS](https://github.com/SynicalMX/RedOS).
-- 🌱 I’m currently learning Java.
+- ✍️ I'm currently working on [AptScript](https://github.com/SynicalMX/AptScript).
+- 🌱 I’m currently learning Kotlin.
 - 💞️ I’m looking to collaborate on nothing currently.
 - 📫 You can reach me by DM'ing me @SynicalMX on twitter
