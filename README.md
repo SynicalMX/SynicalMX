@@ -1,3 +1,3 @@
 hi.
 
-i'm [synicalmx]("synicalmx.github.io")
+i'm [synicalmx](https://synicalmx.vercel.app)
