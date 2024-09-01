@@ -1,15 +1,12 @@
+import process from 'process';
 import { router, publicProcedure } from '../trpc';
-import { z } from 'zod';
+
+const DISCORD_USER_API: string = "https://discord.com/api/v10/users/319948810505682944";
 
 export const appRouter = router({
-	greeting: publicProcedure
-		.input(
-			z.object({
-				name: z.string().optional(),
-			}),
-		)
-		.query(({ input }) => {
-			return `Welcome to ${input.name ?? 'the world'}!`;
+	discord: publicProcedure
+		.query(() => {
+			return false
 		}),
 });
 

@@ -1,56 +1,21 @@
 <script lang="ts">
-	import NextStep from '$lib/components/NextStep.svelte';
-	import { trpc } from '$lib/trpc';
-
-	const greeting = trpc.greeting.query({ name: 'the o7 stack' });
+	import SocialNetworks from '$lib/components/SocialNetworks.svelte';
 </script>
 
-<main class="flex h-screen flex-col items-center justify-center">
-	<img src="/favicon.png" class="w-32" alt="o7 Logo" />
-	<!--
-		Notice how there's no flash of `undefined` here: that's because of the
-		SSR in `+page.server.ts`! Try changing the `name` to see the difference.
-	-->
-	<h1 class="text-3xl font-bold">{$greeting.data}</h1>
-	<h2 class="my-6 text-2xl">Next Steps:</h2>
-	<div class="flex max-w-5xl justify-center gap-4 px-3">
-		<NextStep
-			title="Edit this page"
-			learnMore="https://svelte.dev/tutorial/basics"
-		>
-			<p>
-				Edit <code class="text-lime-300">src/routes/+page.svelte</code> to see your
-				changes live.
-			</p>
-			<p>
-				The source for these cards is in <code class="text-lime-300"
-					>src/lib/components/NextStep.svelte</code
-				>.
-			</p>
-			<p>
-				There's some global styling in <code class="text-lime-300"
-					>src/app.css</code
-				>.
-			</p>
-		</NextStep>
-		<NextStep title="Create some tRPC routes" learnMore="https://trpc.io">
-			<p>
-				There's an example query in <code class="text-purple-300"
-					>src/lib/server/routes/_app.ts</code
-				>.
-			</p>
-			<p>
-				Also take a look at <code class="text-purple-300">
-					src/routes/+page.server.ts</code
-				> to see how server-side rendering works!
-			</p>
-		</NextStep>
+<main class="flex flex-col items-center justify-center">
+	<div class="flex flex-row gap-x-24 items-center justify-center">
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<img
+			src="./favicon.png"
+			class="mr-1 rounded-full outline outline-4 outline-offset-2 outline-purple-800"
+		/>
+		<div class="flex h-screen flex-col items-center justify-center">
+			<h1 class="text-3xl font-bold">hi.</h1>
+			<h2 class="my-6 text-2xl">i'm synical</h2>
+			<SocialNetworks />
+		</div>
 	</div>
 </main>
 
 <style>
-	code {
-		background: theme('colors.zinc.900');
-		padding: theme('spacing[0.5]');
-	}
 </style>
