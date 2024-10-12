@@ -1,0 +1,52 @@
+{
+	"name": "minecraft-web",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"lint": "svelte-kit sync && eslint --max-warnings 0 --fix . && svelte-check",
+		"preview": "vite preview",
+		"dev": "vite dev",
+		"build": "vite build",
+		"db:push": "prisma db push"
+	},
+	"dependencies": {
+		"@tanstack/svelte-query": "^5.59.9",
+		"@trpc/client": "^10.45.2",
+		"@trpc/server": "^10.45.2",
+		"arctic": "^1.9.2",
+		"better-sqlite3": "^11.3.0",
+		"devalue": "^5.1.1",
+		"kysely": "^0.27.4",
+		"oslo": "^1.2.1",
+		"trpc-svelte-query": "^2.1.0",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.12.0",
+		"@lucia-auth/adapter-sqlite": "^3.0.2",
+		"@sveltejs/adapter-auto": "^3.2.5",
+		"@sveltejs/kit": "^2.6.4",
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"@types/better-sqlite3": "^7.6.11",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.12.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-svelte": "^2.44.1",
+		"globals": "^15.11.0",
+		"lucia": "^3.2.1",
+		"postcss": "^8.4.47",
+		"postcss-load-config": "^6.0.1",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.7",
+		"prettier-plugin-tailwindcss": "^0.6.8",
+		"prisma": "^5.20.0",
+		"prisma-kysely": "^1.8.0",
+		"svelte": "^4.2.19",
+		"svelte-check": "^4.0.4",
+		"tailwindcss": "^3.4.13",
+		"typescript": "~5.6.3",
+		"typescript-eslint": "^8.0.0-alpha.62",
+		"vite": "^5.4.8"
+	}
+}
