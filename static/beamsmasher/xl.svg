@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128px"
+   height="128px"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="xl.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.3522446"
+     inkscape:cx="27.558531"
+     inkscape:cy="65.860218"
+     inkscape:window-width="1920"
+     inkscape:window-height="959"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="false"
+     labelstyle="default" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch15"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path15"
+       style="stroke:#ffffff;stroke-width:3;paint-order:stroke fill markers;fill:#ffffff;fill-opacity:1"
+       d="M 50.798727,60.670321 C 31.572563,40.253162 21.012409,23.375709 26.392426,21.663675 c 4.998462,-1.590618 17.485028,8.036471 36.161267,25.851706 0.69787,0.66569 0.910152,7.648753 4.330638,11.126329 3.567043,3.62658 10.347305,3.753379 11.081159,4.480536 20.269971,20.084999 28.2652,30.608175 26.81787,36.217012 -1.44732,5.608842 -18.224789,-4.601863 -38.775564,-23.598659 l -3.82604,-12.163154 z"
+       sodipodi:nodetypes="csssssccc" />
+    <path
+       id="ellipse16"
+       style="fill:none;stroke:#ffffff;stroke-width:3;paint-order:stroke fill markers;fill-opacity:1"
+       d="M 56.23083,54.122909 C 78.021021,32.174667 98.965965,17.638983 103.01267,21.65655 107.05938,25.674117 92.675444,46.723563 70.885254,68.671805 49.095061,90.620047 28.150116,105.15573 24.103409,101.13817 20.056702,97.120599 34.440638,76.071152 56.23083,54.122909 Z"
+       sodipodi:nodetypes="sssss" />
+  </g>
+</svg>

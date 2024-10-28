@@ -2,7 +2,7 @@
 	import Card from '$lib/components/Card.svelte';
 	import { trpc } from '$lib/trpc';
 
-	// const quote = trpc.greeting.query();
+	const quote = trpc.greeting.query();
 </script>
 
 <main class="flex h-screen flex-col items-center justify-center space-y-5">
@@ -13,30 +13,34 @@
 		class="outline outline-4 outline-violet-800 rounded-full drop-shadow-xl"
 	>
 
-	<!-- Daily Quote -->
-	<!-- <h1 class="">{$quote.data}</h1> -->
-
 	<!-- The Internet Plays Minecraft -->
 	<div class="flex max-w-5xl justify-center gap-4 px-3">
 		<Card
-			title="The Internet Plays Minecraft"
-			link="/minecraft"
+			title="Coming soon..."
+			link="#"
+			newTab={false}
 		>
-			<p>
-				The <span class="text-violet-500">entire internet</span> shares a Minecraft player!
+			<!-- <p>
+				Basically <a href="https://reddit.com/r/place" target="_blank" class="text-violet-500 underline">r/place</a> but everyone shares a Minecraft player!
 			</p>
 			<p>
 				Play inside of you're browser, <span class="text-lime-300">no Minecraft account required!</span>
 			</p>
 			<p>
-				Complete up to <span class="text-violet-500">10 actions a day</span> per user. <span class="text-lime-300">Good luck!</span>
+				Complete <span class="text-lime-300">1 action</span> a day. <span class="text-lime-300">Good luck!</span>
+			</p> -->
+			<p>
+				A space for the future.
+			</p>
+			<p>
+				In the mean time, go play Black Ops 6 😉
 			</p>
 		</Card>
 
 		<!-- Portfolio -->
 		<section class="flex w-1/3 flex-col gap-2 rounded-lg bg-zinc-800 p-4 shadow-lg items-center">
 			<h1 class="mb-2 text-xl font-bold text-center">hi. im <span class="text-violet-500">synical</span></h1>
-			<p class="text-center">i code stuff, enjoyer of pokémon, dragon ball, and an amazingly average video gamer</p>
+			<p class="text-center">i code stuff, enjoyer of <span class="text-red-400">pokémon</span>, <span class="text-orange-400">dragon ball</span>, and an <span class="text-violet-400">amazingly average video gamer</span></p>
 			<br>
 			<p class="text-center">follow my socials below</p>
 			<br>
@@ -80,13 +84,19 @@
 			</div>
 
 		</section>
-		<Card title="future project..." link="https://x.com/SynicalMX">
+		<Card title="Terminus Beamsmasher" link="/beamsmasher" newTab={false}>
 			<p>
-				A space for the future.
+				A calculator for the Beamsmasher puzzle on Terminus for Black Ops 6
 			</p>
 			<p>
-				In the mean time, go play "The Internet Plays Minecraft" 😉
+				Just click on the symbols, and enter the code!
 			</p>
 		</Card>
+	</div>
+
+	<!-- Daily Quote -->
+	<div class="flex text-center flex-col w-full max-w-40">
+		<h1 class="text-center font-bold">Daily Quote</h1>
+		<h2 class="text-center italic max-h-10">{$quote.data}</h2>
 	</div>
 </main>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128px"
+   height="128px"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="cross.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.8923042"
+     inkscape:cx="84.024544"
+     inkscape:cy="130.79292"
+     inkscape:window-width="1247"
+     inkscape:window-height="959"
+     inkscape:window-x="50"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch15"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path15"
+       style="stroke:#ffffff;stroke-width:3;paint-order:stroke fill markers;fill:#ffffff;fill-opacity:1"
+       d="m 74.303964,53.187343 c 28.028836,0.94345 47.413886,5.480532 44.802126,10.485965 -2.42653,4.650445 -18.07045,6.615884 -43.87585,7.131461 -0.964259,0.01927 -6.034802,-4.786749 -10.912291,-4.844743 -5.086474,-0.06048 -9.987472,4.62655 -11.020574,4.627552 C 24.761816,70.61526 11.673871,68.780425 8.7492868,63.780364 5.8247013,58.780303 24.924874,54.205886 52.893017,53.208114 l 11.284691,5.936046 z"
+       sodipodi:nodetypes="csssssccc" />
+    <path
+       id="ellipse16"
+       style="fill:none;stroke:#ffffff;stroke-width:3;paint-order:stroke fill markers"
+       d="m 75.061992,61.660934 c 0,30.927944 -4.62266,55.999996 -10.325,55.999996 -5.70234,0 -10.325,-25.072052 -10.325,-55.999996 0,-30.927946 4.62266,-55.9999996 10.325,-55.9999996 5.70234,0 10.325,25.0720536 10.325,55.9999996 z"
+       sodipodi:nodetypes="sssss" />
+  </g>
+</svg>
