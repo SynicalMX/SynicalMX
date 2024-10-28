@@ -31,9 +31,9 @@
 	}
 </script>
 
-<div class="flex w-fit gap-4 items-center">
-	<h1 class="font-bold text-8xl mr-24">{coordinate}</h1>
-	<section class="flex w-fit h-5/6 rounded-lg bg-zinc-800 p-4 shadow-lg items-center text-center mr-24">
+<div class="flex w-24em gap-4 items-center justify-center md:mr-24 sm:ml-24">
+	<h1 class="font-bold lg:text-8xl lg:mr-6 md:text-6xl md:ml-24">{coordinate}</h1>
+	<section class="flex min-med:w-fit sm:w-8/12 h-5/6 rounded-lg bg-zinc-800 p-4 shadow-lg items-center text-center md:mr-24 sm:ml-4">
 		{#each icons as icon, i}
 			<BeamsmasherButton icon={icon} coordinate={coordinate} bind:this="{buttons[i]}" />
 		{/each}

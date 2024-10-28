@@ -50,9 +50,10 @@
 	<title>Terminus Beamsmasher Calculator</title>
 </svelte:head>
 
-<main class="flex h-screen flex-col items-center justify-center space-y-5">
+<main class="flex h-screen flex-col items-center justify-center lg:space-y-5 mg:space-y-3, sm:space-y-1">
+	<h1 class="font-bold lg:text-6xl">Enter your symbols.</h1>
 	{#each coordinates as coordinate, i}
 		<BeamsmasherSymbol coordinate={coordinate} bind:this="{symbols[i]}" />
 	{/each}
-	<h1 class="font-bold text-8xl" bind:this="{code}">00 00 00</h1>
+	<h1 class="font-bold lg:text-8xl md:text-6xl sm:text-9xl" bind:this="{code}">00 00 00</h1>
 </main>
