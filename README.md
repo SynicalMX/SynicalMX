@@ -1,3 +1,3 @@
 hi.
 
-i'm [synicalmx](https://synicalx.github.io/)
+i'm [synicalmx](https://synicalmx.github.io/)
